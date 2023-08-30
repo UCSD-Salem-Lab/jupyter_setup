@@ -1,5 +1,5 @@
 # Jupyter Notebook Setup
-Tutorial to set up Jupyter Notebook on Narrows computer cluster
+Tutorial to set up Jupyter Notebook on Narrows compute cluster
 
 Author: Wanjun Gu
 
@@ -9,7 +9,7 @@ Date: Aug 17th, 2023
 
 ### Step1: Installing Jupyterlab in the conda base environment
 
-Log in the compute cluster head node and spin up an interactive session:
+Log in to the compute cluster head node and spin up an interactive session:
 
 ```bash
 module load slurm; srun --partition=salem-compute --mem=8G --pty bash
